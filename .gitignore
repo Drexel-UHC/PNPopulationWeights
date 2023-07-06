@@ -1,4 +1,6 @@
-*.csv
+Population Weights Census Blocks.csv
 venv/
 *_standalone.py
 .idea/
+create_weights_2020.py
+__pycache__/
