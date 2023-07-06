@@ -89,4 +89,10 @@ def calc_pop_weights(population_data, pn_census_blocks, under18, total_pop):
     # calculate weights
     pop_weights["Total Population Weight"] = pop_weights["inPN"] / pop_weights["in_tract"]
     pop_weights["Total Population 0-17 Weight"] = pop_weights["Under18_inPN"] / pop_weights["Under18"]
-    return pop_weights
+
+    pop_weights["State"] = "42"
+    pop_weights["County"] = "101"
+
+    pop_weights.reset_index(inplace=True)
+
+    return pop_weights[["State", "County", "tract", "Total Population Weight", "Total Population 0-17 Weight"]]
