@@ -46,8 +46,8 @@ households or family units, such as household income.
 
 | File Name            | Description                                                                           |
 |----------------------|---------------------------------------------------------------------------------------|
-| PZ Weights 2010.csv  | Weights for the 2010 census tracts, used for data collected<br/>between 2010 and 2019 |
-| PZ Weights 2020.csv  | Weights for the 2020 census tracts, used for data collected<br/>between 2020 and 2029 |
+| PN Weights 2010.csv  | Weights for the 2010 census tracts, used for data collected<br/>between 2010 and 2019 |
+| PN Weights 2020.csv  | Weights for the 2020 census tracts, used for data collected<br/>between 2020 and 2029 |
 
 | Column Name                             | Description                                     |
 |------------------------------------------|-------------------------------------------------|
