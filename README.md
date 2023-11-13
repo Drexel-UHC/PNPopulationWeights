@@ -4,10 +4,7 @@ estimates from census tract data for the whole Promise Neighborhood.
 ## Types of Weights
 We have created population based weights for all people within the Promise Neighborhood and for children between the
 ages of 0 and 17 for both 2010 and 2020 census tracts. Additionally, we created weights for all households within the
-Promise Neighborhood and households with at least child under the age of 18 for 2010 census tracts.
-
-The 2020 household weights will be calculated when the census releases the 2020 files related to households at
-households with children at the census block level.
+Promise Neighborhood and households with at least child under the age of 18 for 2010 and 2020 census tracts.
 
 ## Weight Purpose
 The weights are required because the Promise Neighborhood footprint does not align with census tract boundaries.
